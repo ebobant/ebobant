@@ -1,0 +1,7 @@
+---
+- name: this playbook insatll packages
+  hosts: all
+  become: true
+  roles:
+    - setup-apache
+  
